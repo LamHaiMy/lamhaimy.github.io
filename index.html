@@ -2,16 +2,83 @@
 <html>
 <head>
   <title>Page Title</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/stylecommon.css">
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/stylecommon.css" type="text/css">
+  <link rel="stylesheet" href="./css/animate.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+  <link href="./css/all.css" rel="stylesheet"> <!--font anwesome -->
 </head>
 <body>
   <div class="wapperPage">
-    <h1>Hello My</h1>
-  <p>I'm hosted with GitHub Pages.</p>
+    <section>
+      <div class="bgBanner wow fadeInLeft" data-wow-duration="1.5s">
+        <h1 class="primaryText wow fadeInUp" data-wow-delay="0.5s">House</h1>
+        <h4 class="wow fadeInUp primaryText" data-wow-delay="1s">See what your design will be like</h4>
+        <div class="boxDiv wow fadeInUp"  data-wow-delay="1.5s">
+          <div class="dividerSeparator"></div>
+        </div>
+      </div>
+    </section>
+    <section class="sectionContainer">
+      <div class="row">
+        <div class="leftColumn column">
+          <div class="cardImg wow slideInLeft" data-wow-duration="2s">
+            <img src="./images/2.png" alt="Scandinavian style">
+          </div>
+        </div>
+        <div class="rightColumn column">
+          <div class="cardBox">
+            <div class="dividerLeft"></div>
+            <h2 class="primaryText">We build houses in the Scandinavian style</h2>
+            <p>Our main aim is to build both a reliable and modern house in the Scandinavian style. Your comfort and security matters for us.</p>
+            <a href="#" class="boxButton">Contact with us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="numberOnScroll sectionContainer">
+      <div class="stats">
+        <div class="stats-overlay">
+          <div class="statsbar">
+            <h2 class="primaryText">Our company in numbers</h2>
+            <div class="boxStart">
+              <div class="stat-one">
+                <div class="stat-number" data-n="16">
+                  <span class="Single">0</span>
+                </div>
+                <div class="stat-title">Implemented projects</div>
+              </div>
+              <div class="stat-two">
+                  <div class="stat-number" data-n="24">0</div>
+                  <div class="stat-title">Staff members</div>
+              </div>
+              <div class="stat-three">
+                  <div class="stat-number" data-n="10">0</div>
+                  <div class="stat-title">Years on the market</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
   </div>
+  <!-- <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+    abc
+  </section>
 
+  <section class="wow slideInRight" data-wow-offset="2"  data-wow-iteration="2">
+    bcd
+  </section> -->
+  <div class="animate__animated animate__bounce animate__delay-2s">Example</div>
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<script src="./app.js"></script>
+
+  <!--SCRIPT-->
+  <script src="./js/wow.min.js" type="text/javascript"></script>
+  <script src="./js/app.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script> <!-- to reslove $function() -->
+  <script src="./js/numberOnScroll.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
 </body>
 </html>

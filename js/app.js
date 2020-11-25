@@ -1,3 +1,4 @@
+
 function getDateTime() {
   document.getElementById('demo').innerHTML = Date();
 };
@@ -24,3 +25,4 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+
