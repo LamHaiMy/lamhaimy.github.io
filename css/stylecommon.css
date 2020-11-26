@@ -8,14 +8,14 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  background-color: #d29c7d;
+  color: #343549;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
 #myBtn:hover {
-  background-color: #555;
+  background-color: #f1e1d8;
 }
 body {
   height: 2000px;
@@ -24,17 +24,15 @@ body {
 }
 /* number on scroll */
 .stats {
-width: 100%;
-height: 300px;
-float: left;
-background: black
+  width: 100%;
+  height: 300px;
+  position: relative;
 }
 
 .stats-overlay{
 width: 100%;
-height: 300px;
+height: 100%;
 float: left;
-background: #666;
 }
 
 .personality-overlay {
@@ -52,28 +50,37 @@ background: #666;
   margin: 0 auto;
 }
 .stat-number {
-    height: 50px;
     float:left;
     text-align:left;
-    font-size: 60px;
-    font-weight: 100;
     text-transform: uppercase;
     color:#FFF;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 1.32em;
+    font-family: 'Montserrat';
 }
 .stat-title {
-  height: 50px;
   float: left;
   text-align: center;
   font-size: 14px;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: #FFF;
-  padding-top: 25px;
+  padding-top: 40px;
   padding-left: 20px;
+  color: #d29c7d;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.41em;
+  font-family: 'Montserrat';
+  width: 50%;
+  text-align: left;
 }
 .boxStart {
   display: flex;
   justify-content: space-between;
+}
+.titleBox {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
 }
 /*end number on scroll https://codepen.io/Hivvu/pen/vKVjXO*/
 .sectionContainer {
@@ -91,6 +98,9 @@ background: #666;
 }
 .primaryText {
   color: #343549;
+  font-family: 'Montserrat';
+}
+.primaryFont {
   font-family: 'Montserrat';
 }
 h1 {
@@ -184,4 +194,64 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   align-self: flex-start;
+}
+.backgroundOverlay {
+  background: url(../images/7.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  background-attachment: fixed;
+}
+.slideShow {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.numberOnScroll {
+  background-color: #343549;
+  padding-top: 130px;
+  position: relative;
+}
+.dividerRight {
+  margin-left: 100%;
+  height: 44px;
+  border-left: 5px solid #d29c7d;
+  align-self: flex-start;
+  margin-bottom: 22px;
+}
+.cardBox h2.alignTextRight {
+  align-self: flex-end;
+}
+.cardBox.rightPadding {
+  padding-right: 170px;
+  padding-left: 186px;
+}
+.cardBox.rightPadding p{
+align-self: flex-end;
+}
+.learnMore {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #343549;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-self: flex-end;
+}
+.learnMore span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #343549;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid #d29c7d;
+  padding-bottom: 4px;
+}
+.centerAlign {
+  text-align: center;
 }
