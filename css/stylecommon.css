@@ -258,6 +258,11 @@ p {
 }
 .cardBox h2.alignTextRight {
   align-self: flex-end;
+  padding-right: 0 !important;
+}
+.cardBox p.alignTextRight {
+  align-self: flex-end;
+  padding-right: 0 !important;
 }
 .cardBox.rightPadding {
   padding-right: 170px;
@@ -274,6 +279,10 @@ align-self: flex-end;
   text-transform: uppercase;
   font-weight: bold;
   align-self: flex-end;
+
+}
+.learnMore.startPosition {
+  align-self: flex-start;
 }
 .learnMore span {
   font-family: 'Montserrat', sans-serif;
