@@ -301,14 +301,17 @@ align-self: flex-end;
   padding-left: 20px;
 }
 .boxButtonCenter {
-  color: #d29c7d;
   background: transparent;
   text-decoration: none;
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
 }
 .boxButtonCenter .overlap {
   padding: 15px 25px;
   border: 2px solid #f1e1d8;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
