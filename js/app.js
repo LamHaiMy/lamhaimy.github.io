@@ -14,15 +14,4 @@ function topFunction() {
   // document.documentElement.scrollTop = 0;
 }
 
-window.onscroll = function() {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > (window.innerHeight / 2) || document.documentElement.scrollTop > (window.innerHeight / 2)) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
 
