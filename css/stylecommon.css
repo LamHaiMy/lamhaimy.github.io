@@ -12,6 +12,31 @@ body {
   color: #333;
 }
 
+img {
+  object-fit: cover;
+}
+.ellipsis-text {
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.clamp-2 {
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+}
+.clamp-3 {
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+}
+.clamp-5 {
+  line-clamp: 5;
+  -webkit-line-clamp: 5;
+}
+.color-text-primary {
+  color: #A98469;
+}
 .header {
   display: flex;
   justify-content: space-between;
