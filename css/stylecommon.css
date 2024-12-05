@@ -304,6 +304,14 @@ li {
 .footer-container h4 {
   font-weight: 700;
 }
+.content-footer-child {
+  background: #faf9f7;
+  border-radius: 5px;
+}
+.footer-content {
+  padding: 20px;
+}
+
 @media screen and (max-width: 650px){
   .header {
     padding-top: 26px;
@@ -319,5 +327,8 @@ li {
   }
   .term-and-condition {
     flex-direction: column;
+  }
+  .main-content-left {
+    margin-bottom: 25px;
   }
 }

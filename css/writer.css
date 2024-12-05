@@ -60,3 +60,12 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+@media screen and (max-width: 650px) {
+  .author-site .post-container {
+    padding-left: 0px;
+  }
+  .author-site .post-image {
+    height: 250px;
+    padding-bottom: 10px;
+  }
+}
