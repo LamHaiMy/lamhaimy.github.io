@@ -58,3 +58,14 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.detail-page img {
+  width: 100%
+}
+@media screen and (max-width: 650px){
+  .care-post-column {
+    margin-bottom: 25px;
+  }
+  .updated-post-row .new-post {
+    margin-bottom: 50px;
+  }
+}
