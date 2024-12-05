@@ -190,17 +190,6 @@ li {
   font-weight: bold;
   text-decoration: none;
 }
-.sectionContainer {
-}
-.backgroundOverlay {
-  background: url(../images/7.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.3;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-  background-attachment: fixed;
-}
 .numberOnScroll {
   background-color: #343549;
     padding-top: 130px;
@@ -223,17 +212,7 @@ li {
     height: 100%;
     float: left;
 }
-.statsbar {
-  width: 50%;
-  height: 100%;
-  display: block;
-  margin: 38px auto 0px;
-}
-.titleBox {
-  color: #ffffff;
-    font-size: 35px;
-    font-weight: 500;
-}
+
 .boxStart {
   display: flex;
   justify-content: space-between;
@@ -281,6 +260,9 @@ li {
   line-height: 1.2;
   margin-bottom: 7px;
 }
+.term-and-condition {
+  justify-content: space-between !important;
+}
 .footer-container .term-and-condition ul {
   padding-left: 0px;
   margin-top: 20px;
@@ -321,4 +303,21 @@ li {
 }
 .footer-container h4 {
   font-weight: 700;
+}
+@media screen and (max-width: 650px){
+  .header {
+    padding-top: 26px;
+  }
+  .header .container-fluid {
+    flex-direction: column;
+  }
+  .header .categories {
+    display: none;
+  }
+  .text-goc-nho-footer {
+    font-size: 80px;
+  }
+  .term-and-condition {
+    flex-direction: column;
+  }
 }
