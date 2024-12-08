@@ -313,7 +313,7 @@ li {
 }
 .footer-content p {
   text-align: justify;
-
+}
 @media screen and (max-width: 650px){
   .header {
     padding-top: 26px;
