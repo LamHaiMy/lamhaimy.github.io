@@ -1,0 +1,20 @@
+{
+  "name": "lamhaimy.github.io",
+  "version": "1.0.0",
+  "description": "https://lamhaimy.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamHaiMy/lamhaimy.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamHaiMy/lamhaimy.github.io/issues"
+  },
+  "homepage": "https://github.com/LamHaiMy/lamhaimy.github.io#readme"
+}
